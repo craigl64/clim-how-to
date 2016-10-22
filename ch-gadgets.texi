@@ -1,0 +1,14 @@
+
+
+@c ==================================================
+@node clim Gadgets
+@chapter Gadgets
+
+@c Predefined Gadgets
+@c   Radio Box
+@c   Check Box
+@c   Scroll Bar
+@c   Slider
+@c   Push Button
+@c   Toggle Button
+@c Custom Gadgets

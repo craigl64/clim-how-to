@@ -1,0 +1,25 @@
+
+
+@c ==================================================
+@node clim Initial Application Design
+@chapter Initial Application Design
+
+@c ==================================================
+@node app What Does the Application Do
+@section What Does the Application Do?
+
+@c ==================================================
+@node app What Does it Need to Display
+@section What Does it Need to Display?
+
+@c ==================================================
+@node app How Will the User Interact with It
+@section How Will the User Interact with It?
+
+@c ==================================================
+@node app Wumpus Game from Land of Lisp
+@section Wumpus Game from Land of Lisp
+
+@c ==================================================
+@node app Adventure Game from Adventures in Common Lisp
+@section Adventure Game from Adventures in Common Lisp

@@ -1,0 +1,16 @@
+
+
+@c ==================================================
+@node clim Components of a CLIM Application
+@chapter Components of a CLIM Applicatoin
+
+@c Applicatoin Frame
+@c   Application Variables
+@c   Application Panes
+@c   Pane Layouts
+@c   Command Table
+@c   Top Level Function
+@c Command Tables
+@c Commands
+@c Presentation Types
+@c Applicatoin Logic

@@ -1,0 +1,112 @@
+
+@c ==================================================
+@node clim Application Frame
+@chapter Application Frame
+
+
+@c ==================================================
+@node clim Application Default Panes
+@section Application Default Panes
+
+
+@c ==================================================
+@node clim :title Pane
+@subsection :title Pane
+
+Draws the specified string centered in the pane.
+
+
+@c ==================================================
+@ndoe clim :command-menu Pane
+@subsection :command-menu Pane
+
+Displays a button for each command in the specified command table.
+
+
+@c ==================================================
+@node clim :interactor Pane
+@subsection :interactor Pane
+
+Runs a command loop which allows the user to input commands via the keyboard.
+
+
+@c ==================================================
+@node clim :application Pane
+@subsection :application Pane
+
+Provides a general purpose output pane.
+
+
+@c ==================================================
+@node clim :accept-values Pane
+@subsection :accept-values Pane
+
+@b{Show example accept-values pane.}
+
+Displays an Accept Values dialog.
+
+
+@c ==================================================
+@node clim :pointer-documentation Pane
+@subsection :pointer-documentation Pane
+
+Displays a line showing information about the mouse. Specifically it
+shows what command will be executed when certain mouse buttons are
+pressed.  It also shows appropriate text when modifier keys are held
+down.
+
+
+@c ==================================================
+@node clim Custom Panes
+@section Custom panes
+
+It is possible to create your own pane types and use them as panes
+within your application frame.
+
+
+@c ==================================================
+@node clim Pane Layouts
+@section Pane Layouts
+
+Not only do you specify what panes are part of the application, you also
+need to specify how they are laid out.  Generally this is done by
+ordering them in horizontal and vertical stacks.  A single application
+may have more than one pane layout.
+
+
+@c ==================================================
+@node clim Commands and Command Tables
+@section Commands and Command Tables
+
+@c ==================================================
+@node clim Presentation Actions
+@section Presentation Actions
+
+Presentation Actions are actions defined to run when a specified mouse
+button or key is pressed with a specified set of modifier keys. They
+come in two types: the basic presentation action and the presentaiton to
+command translator.
+
+
+@c ==================================================
+@node clim Actions
+@section Actions
+
+Presentation Actions are actions which run and then return control back
+to the command loop.  They do not cause any other actions that are
+specified to run after a command is executed, such as rerunning the
+display functions of panes.
+
+
+@c ==================================================
+@node clim Presentation-to-Command Translators
+@section Presentation-to-Command Translators
+
+Presentation to Command Translators take the presentation that was
+clicked on and inserts a command into the command processor.  Once
+control is returned to the command processor, that command is run, then
+all actions that should be run after a command is finished are run (such
+as the display functions for panes in the interface).
+
+Most of your Presentation Actions will be Presentation to Command
+Translators with a very few being Presentation Actions.

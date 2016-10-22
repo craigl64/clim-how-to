@@ -1,0 +1,22 @@
+
+
+@c ==================================================
+@node CLIM Basics
+@chapter CLIM Basics
+
+@c ==================================================
+@node basics Introduction to CLIM
+@section Introduction to CLIM
+
+
+@c ==================================================
+@node basics CLIM Methodology
+@section CLIM Methodology
+
+Each class in your application is considered to be a presentation-type
+within CLIM.
+
+
+@c ==================================================
+@node basics Presentations
+@section Presentations

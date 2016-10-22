@@ -1,0 +1,7 @@
+
+
+@c ==================================================
+@node clim Advanced Application Design
+@chapter Advanced Application Design
+
+@c What panes are needed?

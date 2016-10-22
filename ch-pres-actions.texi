@@ -1,0 +1,9 @@
+
+
+@c ==================================================
+@node clim Presentation Actions
+@chapter Presentation Actions
+
+@c Stored in Command Table
+@c Presentation Action
+@c Presentation to Command Translator

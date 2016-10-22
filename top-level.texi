@@ -1,0 +1,92 @@
+\input texinfo   @c -*-texinfo-*-
+@c %**start of header
+@setfilename clim-how-to.pdf
+@settitle Building Applications in CLIM
+@paragraphindent none
+@firstparagraphindent none
+@c %**end of header
+
+@c Command to create PDF
+@c   texi2pdf -o clim-how-to.pdf top-level.texi
+
+@settitle Building Applications in CLIM
+
+@copying
+@quotation
+@copyright{} 2016 Craig Lanning
+@end quotation
+@end copying
+
+@titlepage
+
+@c ************************************************************
+@title Building Applications in CLIM
+@c @subtitle 
+@author Craig Lanning
+@c ************************************************************
+
+@c The following two commands start the copyright page.
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+
+@end titlepage
+
+@contents
+
+@c Introduction
+@c Designing the Application
+@c Topics
+@c   Application Frame
+@c     Application Default Panes
+@c       :title Pane
+@c       :command-menu Pane
+@c       :interactor Pane
+@c       :application Pane
+@c       :accept-values Pane
+@c       :pointer-documentation Pane
+@c     Custom Panes
+@c     Pane Layouts
+@c     Commands and Command Tables
+@c     Presentation Actions
+@c       Actions
+@c       Presentation-to-Command Translators
+@c     Presentations
+@c       Presentation Methods (accept, present)
+
+@c ==================================================
+@node clim Introduction
+@chapter Introduction
+
+CLIM is an acronym that stands for Common Lisp Interface Manager.
+
+CLIM takes your object oriented application and gives it a very powerful
+interface.  It takes the objects that make up your application and makes
+them part of the interface.
+
+The basic idea is that you define an Application Frame with some number
+of Panes in it and then present objects into those panes.  You define
+commands on the frame and presentation actions that do things when the
+presented objects are clicked.
+
+
+@include ch-clim-basics.texi
+@include ch-initial-app-design.texi
+@include ch-clim-components.texi
+@include ch-adv-app-design.texi
+@include ch-app-panes.texi
+@include ch-com-tables.texi
+@include ch-commands.texi
+@include ch-pres-types.texi
+@include ch-pres-actions.texi
+@include ch-gadgets.texi
+@include ch-activity.texi
+
+@c
+@c Appendices
+@c
+
+@c @node Appendices
+@c @majorheading Appendices
+
+@bye

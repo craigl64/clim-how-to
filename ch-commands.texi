@@ -1,0 +1,8 @@
+
+
+@c ==================================================
+@node clim Commands
+@chapter Commands
+
+@c Stored in a Command Table
+@c Specify args and arg types

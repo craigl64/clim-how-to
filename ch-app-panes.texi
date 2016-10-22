@@ -1,0 +1,23 @@
+
+
+@c ==================================================
+@node clim Application Panes
+@chapter Application Panes
+
+@c Redisplay Function
+@c Default Pane Types
+@c   Title Pane
+@c     Display String
+@c     Text Style
+@c   Application Pane
+@c     Display Function
+@c     Scroll Bars
+@c   Command Menu Pane
+@c     Command Table
+@c   Accept Values Pane
+@c   Interactor Pane
+@c     Command Table
+@c     Command Parser
+@c     Command Executor
+@c   Pointer Documentation Pane
+@c Custom Pane Types

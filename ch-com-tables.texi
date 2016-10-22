@@ -1,0 +1,8 @@
+
+
+@c ==================================================
+@node clim Command Tables
+@chapter Command Tables
+
+@c Can inherit from other command tables
+@c Can define a Menu of its commands
