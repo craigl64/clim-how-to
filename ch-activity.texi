@@ -3,3 +3,7 @@
 @c ==================================================
 @node clim Activity
 @chapter Activity
+
+Probably going to need to look through the source code to figure out how
+this is supposed to work.
+
