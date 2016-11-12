@@ -1,5 +1,14 @@
 
 
+@c CLIM Basics
+@c   Introduction to CLIM
+@c   CLIM Methodology
+@c   Presentations
+@c ---------
+@c   Presentation Actions
+@c   Commands
+@c   Command Tables
+@c   Defining an Application Frame
 @c ==================================================
 @node CLIM Basics
 @chapter CLIM Basics
@@ -8,13 +17,29 @@
 @node basics Introduction to CLIM
 @section Introduction to CLIM
 
+CLIM is an acronym that stands for Common Lisp Interface Manager.
+
+CLIM takes your object oriented application and gives it a very powerful
+interface.  It takes the objects that make up your application and makes
+them part of the interface.
+
+The basic idea is that you define an Application Frame with some number
+of Panes in it and then present objects into those panes.  You define
+commands that do things in the application and presentation actions that
+allow you to interact with the objects that have been presented on the
+panes of the interface.
+
 
 @c ==================================================
 @node basics CLIM Methodology
 @section CLIM Methodology
 
-Each class in your application is considered to be a presentation-type
-within CLIM.
+CLIM is a presentation based user interface.  You define presentation
+types and present objects of those types into the panes of the interface.
+
+To make this easier, CLIM considers each CLOS Class to also be a CLIM
+Presentation Type.  It also lets you define Presentation Types that are
+not directly tied to CLOS Classes.
 
 
 @c ==================================================
