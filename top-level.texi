@@ -9,8 +9,6 @@
 @c Command to create PDF
 @c   texi2pdf -o clim-how-to.pdf top-level.texi
 
-@settitle Building Applications in CLIM
-
 @copying
 @quotation
 @copyright{} 2016 Craig Lanning
@@ -55,19 +53,26 @@
 @c       Presentation Methods (accept, present)
 
 @c ==================================================
-@node clim Introduction
+@node Book Introduction
 @chapter Introduction
 
-CLIM is an acronym that stands for Common Lisp Interface Manager.
+I have worked in Lisp for over 30 years.  I started in Zetalisp on a
+Symbolics Lisp Machine.  Later I moved to Common Lisp on conventional
+computers.
 
-CLIM takes your object oriented application and gives it a very powerful
-interface.  It takes the objects that make up your application and makes
-them part of the interface.
+In Zetalisp, I built applications using the object system Flavors and
+built the GUI in Dynamic Windows.
 
-The basic idea is that you define an Application Frame with some number
-of Panes in it and then present objects into those panes.  You define
-commands on the frame and presentation actions that do things when the
-presented objects are clicked.
+Once I moved to Common Lisp, I built the applications in CLOS (Common
+Lisp Object System) and the GUI in CLIM (Common Lisp Interface Manager).
+
+When I started using CLIM, I noticed that the CLIM Specification was
+really only good for describing the implementation of CLIM.  It didn't
+really help me figure out how to use it.  I did that by trial and error.
+
+This book is inteded to fill that void.  We will talk about how to build
+a CLIM interface for your object oriented application.  We will use a
+few games as examples.
 
 
 @include ch-clim-basics.texi
