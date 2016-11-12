@@ -85,7 +85,6 @@ few games as examples.
 @include ch-pres-types.texi
 @include ch-pres-actions.texi
 @include ch-gadgets.texi
-@include ch-activity.texi
 
 @c
 @c Appendices
